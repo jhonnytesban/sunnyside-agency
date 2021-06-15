@@ -4,7 +4,7 @@
   --soft-red: hsl(7, 99%, 70%);
   --color-yellow: hsl(51, 100%, 49%);
 
-  --dark-desaturated-cyan: hsl(167, 40%, 24%);/* text */
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);  /* text */
   --dark-blue: hsl(198, 62%, 26%); /* photography text */
   --dark-moderate-cyan: hsl(168, 34%, 41%); /* Footer */
 
@@ -18,4 +18,49 @@
   /*  Family  */
   --text-barlow: 'Barlow', sans-serif; /* 600  */
   --text-fraunces: 'Fraunces', serif; /* 700 - 900  */
+}
+
+body {
+  font-size: 18px;
+}
+
+  /*  Header  */
+
+.header{
+  background-image: url(./images/mobile/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px 80px 20px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-bottom: 70px;
+}
+.nav__list{
+  list-style: none;
+  background-color: var(--White);
+  padding: 50px;
+  position: absolute;
+  top: -400px;
+}
+.list__item{
+  text-align: center;
+}
+.title{
+  font-family: var(--text-fraunces);
+  color: var(--White);
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin-bottom: 60px;
+}
+.icon-arrow{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
