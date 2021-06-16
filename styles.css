@@ -150,7 +150,7 @@ body {
   height: 7px;
   background-color: var(--color-yellow);
   border-radius: 10px;
-  opacity: .4;
+  opacity: .2;
   position: absolute;
   top: 15px;
   z-index: -10;
@@ -161,8 +161,32 @@ body {
   height: 7px;
   background-color: var(--soft-red);
   border-radius: 10px;
-  opacity: .4;
+  opacity: .2;
   position: absolute;
   top: 15px;
   z-index: -10;
+}
+.article-2{
+  background-image: url(./images/mobile/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 400px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+.article-2 .article__text:nth-child(2){
+  color: var(--Very-dark-desaturated-blue);
+}
+.article-3 .article__text:nth-child(2){
+  color: var(--dark-blue);
+}
+.article-3{
+  overflow: hidden;
+  background-image: url(./images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 400px;
+  padding-bottom: 40px;
 }
