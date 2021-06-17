@@ -189,4 +189,44 @@ body {
   background-position: center;
   padding-top: 400px;
   padding-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+.section-article{
+  margin-bottom: 80px;
+}
+.section__subtitle{
+  font-family: var(--text-fraunces);
+  color: var(--Dark-grayish-blue);
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 60px;
+}
+.client__img{
+  display: block;
+  width: 80px;
+  border-radius: 50%;
+  margin: 40px auto 30px auto;
+}
+.client__text{
+  text-align: center;
+  font-family: var(--text-barlow);
+  color: var(--dark-blue);
+  padding: 0 24px;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+.client__name{
+  text-align: center;
+  color: var(--Very-dark-desaturated-blue);
+  font-family: var(--text-fraunces);
+  font-weight: 900;
+}
+.client__job{
+  text-align: center;
+  color: var(--Dark-grayish-blue);
+  font-family: var(--text-barlow);
+  font-size: .8em;
 }
