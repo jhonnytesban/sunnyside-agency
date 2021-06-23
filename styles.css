@@ -267,3 +267,48 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+
+@media (min-width: 750px) {
+  .header{
+    background-image: url(./images/desktop/image-header.jpg);
+  }
+  .icon-hamburguer{
+    display: none;
+  }
+  .nav{
+    margin: 20px 40px 100px 40px;
+  }
+  .nav__list-deactive{
+    position: static;
+    opacity: 1;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+    margin: 0;
+  }
+  .list__item{
+    color: var(--White);
+    padding: 0;
+    text-align: left;
+  }
+  .link{
+    color: var(--White);
+    padding: 0 20px;
+  }
+  .link:hover{
+    background-color: var(--White);
+    color: black;
+    padding: 0;
+    border-radius: 40px;
+    font-family: var(--text-fraunces);
+    padding: 15px 15px;
+  }
+  .title{
+    font-size: 2.4em;
+    margin-bottom: 80px;
+  }
+  .icon-arrow{
+    margin: 0 auto;
+    margin-bottom: 160px;
+  }
+}
