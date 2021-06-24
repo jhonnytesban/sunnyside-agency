@@ -269,6 +269,8 @@ body {
 }
 
 @media (min-width: 750px) {
+  /* Header */
+
   .header{
     background-image: url(./images/desktop/image-header.jpg);
   }
@@ -310,5 +312,42 @@ body {
   .icon-arrow{
     margin: 0 auto;
     margin-bottom: 160px;
+  }
+
+  /* Main */
+  .article{
+    display: flex;
+    margin: 0;
+  }
+  .article__img{
+    margin-bottom: 0;
+    display: block;
+  }
+  .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+  }
+  .picture{
+    width: 50%;
+  }
+  .main .article:nth-child(1) {
+    flex-direction: row-reverse;
+  }
+  .article__subtitle{
+    font-size: 2.4em;
+    text-align: left;
+    padding: 0;
+  }
+  .article__text{
+    font-size: 1.18rem;
+    text-align: left;
+    padding: 0;
+  }
+  .article__link{
+    text-align: left;
   }
 }
