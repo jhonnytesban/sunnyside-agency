@@ -349,5 +349,38 @@ body {
   }
   .article__link{
     text-align: left;
+    margin-bottom: 0;
+  }
+  .container-article{
+    display: flex;
+  }
+  .article-2{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    width: 50%;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .article-3{
+    background-image: url(./images/desktop/image-photography.jpg);
+    width: 50%;
+    margin-bottom: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .article-2 .article__subtitle{
+    text-align: center;
+  }
+  .article-2 .article__text{
+    text-align: center;
+  }
+  .article-3 .article__subtitle{
+    text-align: center;
+  }
+  .article-3 .article__text{
+    text-align: center;
+  }
+  
+  .container-section{
+    display: flex;
   }
 }
