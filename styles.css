@@ -268,7 +268,7 @@ body {
   align-items: center;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 1000px) {
   /* Header */
 
   .header{
@@ -379,8 +379,31 @@ body {
   .article-3 .article__text{
     text-align: center;
   }
-  
+  .section{
+    padding-top: 100px;
+  }
   .container-section{
     display: flex;
+    padding: 40px 80px;
+  }
+  .container-img{
+    width: 100%;
+  }
+  .img{
+    width: 25%;
+  }
+
+  /* Footer */
+  .container-links{
+    justify-content: center;
+  }
+  .footer__link{
+    margin: 0 20px;
+  }
+  .footer__icons{
+    justify-content: center;
+  }
+  .footer__icons a{
+    margin: 0 20px;
   }
 }
